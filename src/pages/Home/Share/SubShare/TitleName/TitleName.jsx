@@ -1,8 +1,9 @@
+import React from 'react';
 
 const TitleName = () => {
     return (
         <div>
-            <h2>Name Of Service</h2>
+            <h2>Title</h2>
         </div>
     );
 };

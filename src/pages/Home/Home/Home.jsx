@@ -1,15 +1,12 @@
-import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import OurService from "../Share/OurService/OurService";
+import MainBody from "../MainBody/MainBody";
 
 const Home = () => {
     return (
         <div>
-            <h1>Medical Management home page: </h1> 
             <Header></Header>
-            <OurService></OurService>
-
-            <Footer></Footer>
+            <MainBody></MainBody>
+            
 
         </div>
     );
