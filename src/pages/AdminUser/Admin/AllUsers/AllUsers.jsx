@@ -1,10 +1,14 @@
-
 const AllUsers = () => {
-    return (
+  return (
+    <section>
+      <div>
+        <div></div>
         <div>
-            <h2>All Use List </h2>
-        </div>
-    );
+        <h2>All Users: {} </h2>
+      </div>
+      </div>
+    </section>
+  );
 };
 
 export default AllUsers;

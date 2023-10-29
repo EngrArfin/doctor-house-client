@@ -9,12 +9,20 @@ import { AiOutlineDollarCircle } from "react-icons/ai";
 import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 const ExpertDoctors = () => {
+  const [doctor, setDoctor] = useState([]);
+  useEffect( () =>{
+    fetch('doctor.json')
+    .then(res => res.json())  
+    .then(data => setDoctor(data))
+  })
+
   return (
     <div>
       <TitleName
-        title={"Our Expert Doctors"}
+        title={"Our      Expert Doctors"}
         subTitle={
           "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo "
         }

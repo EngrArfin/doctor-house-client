@@ -7,7 +7,10 @@ import ProfileHeader from "../ProfileHeader/ProfileHeader";
 const DoctorProfileCard = () => {
   return (
     <section>
+
       <ProfileHeader></ProfileHeader>
+
+
       <div className="max-w-7xl mx-auto mt-20">
         <div className="card ml-50 w-120 bg-sky-500 max-h-screen ">
           <div className="hero-content flex-col lg:flex-row">
@@ -25,7 +28,6 @@ const DoctorProfileCard = () => {
                 </div>
                 <div>
                   <p className="ml-3">
-                    {" "}
                     Dhanmondi, Dhaka, Bangladesh{" "}
                     <span className="text-red-500">- Get Directions</span>
                   </p>
