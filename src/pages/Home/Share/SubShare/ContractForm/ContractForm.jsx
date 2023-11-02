@@ -1,9 +1,10 @@
 import { BsTelephoneOutbound } from "react-icons/bs";
 import { GrLocation } from "react-icons/gr";
+import './bacground.css'
 
 const ContractForm = () => {
   return (
-    <div className=" bg-green-900 text-white mb-10 flex max-w-5xl mx-auto">
+    <div className=" feature-item bg-green-900 text-black mb-10 flex max-w-5xl mx-auto">
       <div className="ml-5 mt-5">
         <h2 className="card-title">Contact With Us</h2> <br />
         <p>
@@ -30,7 +31,7 @@ const ContractForm = () => {
         </div>
       </div>
       <div className=" p-12">
-        <input className=" p-2  bg-black " type="text" name="" id="" placeholder="Enter Name" /> 
+        <input className=" p-2  bg-blue-500 text-white " type="text" name="" id="" placeholder="Enter Name" /> 
         <input className="p-2 ml-2 mb-2 bg-black" type="email" name="" id="" placeholder="Enter Email" />
         <input className="p-2 bg-black" type="number" name="number" id=""  placeholder="Number"/>
         <input className="p-2 ml-2 mb-2 bg-black" type="text" name="" id="" placeholder="Enter Name" />

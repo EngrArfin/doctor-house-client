@@ -265,11 +265,16 @@
     },
     {
         "_id": "642c155b2c4774f05c36ee7e",
-        "name": "Fish Parmentier",
+        "name": "Dr Shamima Khatun",
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
         "category": "popular",
-        "price": 14.5
+        "btp": "BTP - Senior Physiotherapist",
+        "location": "Dhanmondi , Dhaka, Bangladesh",
+        "openTime": "Available On Mon, 22 December",
+        "price": 15
+        
+
     },
     {
         "_id": "642c155b2c4774f05c36ee8b",

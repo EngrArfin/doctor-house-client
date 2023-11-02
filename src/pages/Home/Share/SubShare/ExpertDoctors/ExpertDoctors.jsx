@@ -1,23 +1,18 @@
 import TitleName from "../TitleName/TitleName";
-import doctor1 from "../../../../../assets/doctorImage/doctor-1.jpg";
-import doctor2 from "../../../../../assets/doctorImage/doctor-2.jpg";
-import doctor3 from "../../../../../assets/doctorImage/doctor-3.jpg";
+/*      */
 import { GrLocation } from "react-icons/gr";
 import { FaRegClock } from "react-icons/fa";
 import { AiOutlineDollarCircle } from "react-icons/ai";
-
+import doctor1 from '../../../../../assets/doctorImage/doctor-1.jpg'
+import doctor2 from '../../../../../assets/doctorImage/doctor-2.jpg'
+import doctor3 from '../../../../../assets/doctorImage/doctor-3.jpg'
 import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+
 
 const ExpertDoctors = () => {
-  const [doctor, setDoctor] = useState([]);
-  useEffect( () =>{
-    fetch('doctor.json')
-    .then(res => res.json())  
-    .then(data => setDoctor(data))
-  })
+  
 
   return (
     <div>
@@ -35,8 +30,8 @@ const ExpertDoctors = () => {
           <img src={doctor1} alt="Shoes" className="rounded-xl" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">Dr Shamima Khatun</h2>
-          <p>BTP - Senior Physiotherapist</p>
+          <h2 className="card-title">name</h2>
+          <p>btp</p>
           <span className="max-auto w-20">
             <Rating 
           style={{ maxWidth: 180 }} 
@@ -49,7 +44,7 @@ const ExpertDoctors = () => {
               <GrLocation></GrLocation>
             </div>
             <div>
-              <p className="ml-3"> Dhanmondi , Dhaka, Bangladesh</p>
+              <p className="ml-3"> location</p>
             </div>
           </div>
           <div className="flex align-item-center">
@@ -57,7 +52,7 @@ const ExpertDoctors = () => {
               <FaRegClock></FaRegClock>
             </div>
             <div>
-              <p className="ml-3"> Available On Mon, 22 December</p>
+              <p className="ml-3">time</p>
             </div>
           </div>
           <div className="flex align-item-center">
@@ -65,7 +60,7 @@ const ExpertDoctors = () => {
               <AiOutlineDollarCircle></AiOutlineDollarCircle>
             </div>
             <div>
-              <p className="ml-3">$15</p>
+              <p className="ml-3">price</p>
             </div>
           </div>
           <Link to="/profile" className="btn btn-outline btn-error">View Profile</Link>
@@ -110,7 +105,7 @@ const ExpertDoctors = () => {
               <p className="ml-3">$15</p>
             </div>
           </div>
-          <button className="btn btn-error  btn-error">View Profile</button>
+          <button className="btn btn-error">View Profile</button>
         </div>
       </div>
 

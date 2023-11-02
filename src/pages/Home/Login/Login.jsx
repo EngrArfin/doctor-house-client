@@ -1,16 +1,18 @@
 import { Link } from "react-router-dom";
 
-
 const Login = () => {
   return (
-    <section className="registration">
-      <form className="registration-form border-2 border-red-500">
-        <h2 className="mb-5">Sign In to Doc House</h2>
-
+    <section className="flex justify-center items-center mt-32 ">
+      <form className="border-2 border-red-500 p-20 w-250 m-10">
+        <div className="flex justify-center mb-10 text-3xl">
+        <h2 >Sign In to Doc House</h2>
+        </div>
+        
+  
         <div className="mb-2">
           <label
             htmlFor="email"
-            className="block text-lg font-medium text-gray-700"
+            className="block mb-3 text-lg font-medium text-gray-700"
           >
             Enter Email
           </label>
@@ -25,7 +27,7 @@ const Login = () => {
 
         <div>
           <div className="flex justify-between">
-            <div><label className="block  text-lg font-medium text-gray-700">
+            <div><label className="block mb-3 text-lg font-medium text-gray-700">
             Password 
           </label></div>
           <div className="text-red-500">
