@@ -8,9 +8,9 @@ const Home = () => {
     <div>
 
       <Helmet>
-        <title>Doctor house |Home </title>
+        <title>Doctor house |76-3 </title>
       </Helmet>
-                  
+      
       <Header></Header>
       <MainBody></MainBody>
     </div>
