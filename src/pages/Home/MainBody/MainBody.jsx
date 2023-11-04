@@ -1,8 +1,9 @@
-import PopularMenu from "../PopularMenu/PopularMenu";
 import OurService from "../Share/OurService/OurService";
+import PopularMenu from "../Share/Profile1/PopularMenu/PopularMenu";
+import DoctorMenu from "../Share/Profile2/DoctorMenu/DoctorMenu";
 import Card from "../Share/SubShare/Card/Card";
 import ContractForm from "../Share/SubShare/ContractForm/ContractForm";
-import ExpertDoctors from "../Share/SubShare/ExpertDoctors/ExpertDoctors";
+
 import PatientsOpinion from "../Share/SubShare/PatientsOpinion/PatientsOpinion";
 
 const MainBody = () => {
@@ -11,8 +12,8 @@ const MainBody = () => {
             <OurService></OurService>
             <Card></Card>
             <PatientsOpinion></PatientsOpinion>
-            <ExpertDoctors></ExpertDoctors>
             <PopularMenu></PopularMenu>
+           
             
             <ContractForm></ContractForm>
         </div>

@@ -5,10 +5,9 @@ const Login = () => {
     <section className="flex justify-center items-center mt-32 ">
       <form className="border-2 border-red-500 p-20 w-250 m-10">
         <div className="flex justify-center mb-10 text-3xl">
-        <h2 >Sign In to Doc House</h2>
+        <h2 >Login to Mohammadpur Hospital</h2>
         </div>
         
-  
         <div className="mb-2">
           <label
             htmlFor="email"

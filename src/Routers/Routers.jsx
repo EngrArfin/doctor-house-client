@@ -5,10 +5,11 @@ import {
 import Main from "../Layout/Main";
 import Home from "../pages/Home/Home/Home";
 import DoctorProfile from "../pages/Home/DoctorProfile/DoctorProfile";
-import About from "../pages/Home/Share/SubShare/About/About";
 import Login from "../pages/Home/Login/Login";
 import Dashboard from "../pages/AdminUser/Dashboard/Dashboard";
 import SignUp from "../pages/Home/SignUp/SignUp";
+import DoctorsCard from "../pages/Home/Share/Profile2/DoctorsCard/DoctorsCard";
+import DoctorMenu from "../pages/Home/Share/Profile2/DoctorMenu/DoctorMenu";
 
  export const router = createBrowserRouter([
   {
@@ -24,9 +25,10 @@ import SignUp from "../pages/Home/SignUp/SignUp";
             element: <DoctorProfile></DoctorProfile>
         },
         {
-            path: "/about",
-            element: <About></About>
+            path: "/appointment",
+            element: <DoctorMenu></DoctorMenu>
         },
+        
         {
             path: "/signup",
             element: <SignUp></SignUp>

@@ -7,10 +7,10 @@ const Footer = () => {
         <aside>
           <FaClinicMedical></FaClinicMedical>
           <h2 className="uppercase  text-xl">
-            Doctor House
+          Mohammadpur Health Complex
             <br />
           </h2>
-          <p>Lorem Ipsum is simply dummy text of <br /> the printing and typesetting industry. has been <br /> since the printer took.</p>
+          <p>Mohammadpur Upazila Health Complexis simply dummy text of <br /> the printing and typesetting industry. has been <br /> since the printer took.</p>
           <div className="card-actions">
           <button className="btn btn-outline btn-warning">Appointment</button>
 

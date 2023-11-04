@@ -1,15 +1,18 @@
-import { Rating } from "@smastrom/react-rating";
-import { AiOutlineDollarCircle } from "react-icons/ai";
-import { FaRegClock } from "react-icons/fa";
-import { GrLocation } from "react-icons/gr";
+import { Rating } from '@smastrom/react-rating';
 
-import { Link } from "react-router-dom";
+import '@smastrom/react-rating/style.css'
+import { AiOutlineDollarCircle } from 'react-icons/ai';
+import { FaRegClock } from 'react-icons/fa';
+import { GrLocation } from 'react-icons/gr';
 
-const MenuItem = ({ item }) => {
-  const { name, image, price, recipe, rating } = item;
+import { Link } from 'react-router-dom';
 
-  return (
-    <section className="flex mx-auto ml-10 mb-5 flex-direction-row-reverse">
+const DoctorsCard = ({item}) => {
+    const { name, bpt, location, time, image, price, rating } = item;
+    return (
+        <div>
+
+<section className="flex mx-auto ml-10 mb-5 flex-direction-row-reverse">
       <div className="card w-96 bg-base-900">
         
         <figure className="px-5 pt-5">
@@ -17,16 +20,20 @@ const MenuItem = ({ item }) => {
         </figure>
         <div className="card-body">
           <h2 className="card-title">{name}</h2>
-          <p>BTP - Senior Physiotherapist</p>
-          <span className="max-auto w-20">
-            <Rating style={{ maxWidth: 180 }} value={5} readOnly />
+          <p>{bpt}</p>
+          <span className="max-auto w-20 ">
+            <Rating 
+            style={{ maxWidth: 180 }} 
+            value={rating} 
+            readOnly 
+            />
           </span>
           <div className="flex">
             <div>
               <GrLocation></GrLocation>
             </div>
             <div>
-              <p className="ml-3">  Dhanmondi, Dhaka, Bangladesh</p>
+              <p className="ml-3">{location}</p>
             </div>
           </div>
           <div className="flex align-item-center">
@@ -34,7 +41,7 @@ const MenuItem = ({ item }) => {
               <FaRegClock></FaRegClock>
             </div>
             <div>
-              <p className="ml-3">Available On Mon, 22 December</p>
+              <p className="ml-3">{time}</p>
             </div>
           </div>
           <div className="flex align-item-center">
@@ -46,12 +53,14 @@ const MenuItem = ({ item }) => {
             </div>
           </div>
           <Link to="/profile" className="btn btn-outline btn-error">
-            View Profile
+            Appointment
           </Link>
         </div>
       </div>
     </section>
-  );
+            
+        </div>
+    );
 };
 
-export default MenuItem;
+export default DoctorsCard;

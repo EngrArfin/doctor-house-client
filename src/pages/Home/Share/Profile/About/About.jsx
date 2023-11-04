@@ -1,3 +1,5 @@
+import React from "react";
+
 const About = () => {
   return (
     <div className="max-w-7xl mx-auto">
@@ -28,7 +30,7 @@ const About = () => {
           <p> 2007 - 2010 (3 years)</p>
 
           <h3>Dream Smile Dental Practice</h3>
-          <p>2005-2007 (2 years)</p>
+          <p>2005-2007(2 years)</p>
 
           <div>
             <h2 className="card-title">Services</h2>
@@ -37,12 +39,11 @@ const About = () => {
               <li>Root Canal Therapy</li>
               <li>Implants</li>
               <li>Composite Bonding</li>
-              <li>Fissure Sealants</li> 
+              <li>Fissure Sealants</li>
               <li>Surgical Extractions</li>
             </p>
           </div>
         </div>
-
 
         <div>
           <h1 className="card-title">Awards</h1>
@@ -56,25 +57,33 @@ const About = () => {
 
           <p>March 2011</p>
           <h3>Certificate for International Volunteer Service</h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. 
-         Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+          <p>
+            {" "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
+            ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in
+            faucibus.
+          </p>
 
-         <p>May 2008</p>
+          <p>May 2008</p>
 
-         <h2>The Dental Professional of The Year Award</h2>
+          <h2>The Dental Professional of The Year Award</h2>
 
-         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. 
-        Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+          <p>
+            {" "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
+            ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in
+            faucibus.
+          </p>
 
-        <h2 className="card-title">Specializations</h2>
-        <p className="mt-5 ml-3">
-        <li>Children Care</li>
-        <li>Dental Care</li>
-        <li>Oral and Maxillofacial Surgery</li>
-        <li>Orthodontist</li>
-        <li>Periodontist</li>
-        <li>Prosthodontics</li>
-        </p>
+          <h2 className="card-title">Specializations</h2>
+          <p className="mt-5 ml-3">
+            <li>Children Care</li>
+            <li>Dental Care</li>
+            <li>Oral and Maxillofacial Surgery</li>
+            <li>Orthodontist</li>
+            <li>Periodontist</li>
+            <li>Prosthodontics</li>
+          </p>
         </div>
       </div>
     </div>

@@ -18,8 +18,8 @@ const NavBar = () => {
           <li>
             <Link className="uppercase" to="/">Home</Link>
           </li>
-          <li><Link className="uppercase" to="/menu">About</Link></li>
-          <li><Link className="uppercase" to="/order/salad">Appointment</Link></li>
+          <li><Link className="uppercase" to="/profile">About</Link></li>
+          <li><Link className="uppercase" to="/appointment">Appointment</Link></li>
           <li>
             <Link className="uppercase" to="/login">Login</Link>
           </li>
@@ -45,7 +45,7 @@ const NavBar = () => {
       <div className="navbar bg-[#102a1e]  text-white">
         <div className="navbar-start">
           
-          <a className="btn ml-20 btn-ghost uppercase  text-xl"> <FaClinicMedical></FaClinicMedical> <span className="text-red-400">Doctor</span>House</a>
+          <a className="btn ml-20 btn-ghost uppercase  text-xl"> <FaClinicMedical></FaClinicMedical> <span className="text-red-400"> Mohammadpur </span>Health Complex </a>
         </div>
 
 

@@ -17,34 +17,47 @@
     },
     {
         "_id": "642c155b2c4774f05c36ee7c",
-        "name": "Escalope de Veau",
+        "name": "Shamima Akter ",
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
+        "rating": "4",
+        "bpt": "BTP - Senior Physiotherapist",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "image": "https://i.ibb.co/6DwbqQN/doctor-1.jpg",
         "category": "popular",
         "price": 14.5
+        
     },
     {
         "_id": "642c155b2c4774f05c36ee88",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
-        "price": 12.5
+        "name": "Shamima Akter ",
+        "bpt": "BTP - Senior Physiotherapist",
+        "rating": "4",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "category": "doctors",
+        "image": "https://i.ibb.co/6DwbqQN/doctor-1.jpg",
+        "price": 14.5
     },
     {
         "_id": "642c155b2c4774f05c36ee7a",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
+        "name": "Abul Ahosan",
+        "bpt": "BTP - Senior Medicine",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "image": "https://i.ibb.co/g72d10x/doctor-2.jpg",
         "category": "popular",
         "price": 14.5
     },
     {
         "_id": "642c155b2c4774f05c36ee8c",
         "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
+        "bpt": "BTP - Senior Physiotherapist",
+        "rating": "4",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "category": "doctors",
+        "image": "https://i.ibb.co/YQhH5FY/doctor-9.jpg",
         "price": 12.5
     },
     {
@@ -81,18 +94,24 @@
     },
     {
         "_id": "642c155b2c4774f05c36ee89",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "dessert",
+        "name": "Chicken Salad",
+        "bpt": "BTP - Senior Physiotherapist",
+        "rating": "4",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "category": "doctors",
+        "image": "https://i.ibb.co/zJxH2G1/doctor-7.jpg",
         "price": 13.5
     },
     {
         "_id": "642c155b2c4774f05c36ee8a",
         "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
+        "bpt": "BTP - Senior Physiotherapist",
+        "rating": "4",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "category": "doctors",
+        "image": "https://i.ibb.co/PhNk2C2/doctor-8.png",
         "price": 12.5
     },
     {
@@ -114,9 +133,12 @@
     {
         "_id": "642c155b2c4774f05c36ee84",
         "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-4-370x247.jpg",
-        "category": "dessert",
+        "bpt": "BTP - Senior Physiotherapist",
+        "rating": "4",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "category": "doctors",
+        "image": "https://i.ibb.co/6DwbqQN/doctor-1.jpg",
         "price": 14.5
     },
     {
@@ -138,9 +160,12 @@
     {
         "_id": "642c155b2c4774f05c36ee87",
         "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "dessert",
+        "bpt": "BTP - Senior Physiotherapist",
+        "rating": "4",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "category": "doctors",
+        "image": "https://i.ibb.co/6DwbqQN/doctor-1.jpg",
         "price": 13.5
     },
     {
@@ -153,9 +178,11 @@
     },
     {
         "_id": "642c155b2c4774f05c36ee7f",
-        "name": "Roasted Pork Belly",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
+        "name": "Rotna Dash",
+        "bpt": "BTP - Senior Neurologist",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "image": "https://i.ibb.co/KwRhWsp/doctor-3.jpg",
         "category": "popular",
         "price": 14.5
     },
@@ -186,9 +213,12 @@
     {
         "_id": "642c155b2c4774f05c36ee90",
         "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "dessert",
+        "bpt": "BTP - Senior Physiotherapist",
+        "rating": "4",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "category": "doctors",
+        "image": "https://i.ibb.co/6DwbqQN/doctor-1.jpg",
         "price": 9.5
     },
     {
@@ -202,17 +232,23 @@
     {
         "_id": "642c155b2c4774f05c36ee8d",
         "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "dessert",
+        "bpt": "BTP - Senior Physiotherapist",
+        "rating": "4",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "category": "doctors",
+        "image": "https://i.ibb.co/6DwbqQN/doctor-1.jpg",
         "price": 13.5
     },
     {
         "_id": "642c155b2c4774f05c36ee8e",
         "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
+        "bpt": "BTP - Senior Physiotherapist",
+        "rating": "4",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "category": "doctors",
+        "image": "https://i.ibb.co/6DwbqQN/doctor-1.jpg",
         "price": 12.5
     },
     {
@@ -265,39 +301,47 @@
     },
     {
         "_id": "642c155b2c4774f05c36ee7e",
-        "name": "Dr Shamima Khatun",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
-        "category": "popular",
-        "btp": "BTP - Senior Physiotherapist",
-        "location": "Dhanmondi , Dhaka, Bangladesh",
-        "openTime": "Available On Mon, 22 December",
+        "name": "Dr Razib Khanna",
+        "bpt": "BTP - Senior Physiotherapist",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "image": "https://i.ibb.co/B4kzdjb/doctor-4.jpg",
+        "category": "doctors",
         "price": 15
         
 
     },
     {
         "_id": "642c155b2c4774f05c36ee8b",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "dessert",
+        "name": "Kumar Khan",
+        "bpt": "BTP - Senior Physiotherapist",
+        "rating": "4",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "category": "doctors",
+        "image": "https://i.ibb.co/6DwbqQN/doctor-1.jpg",
         "price": 13.5
     },
     {
         "_id": "642c155b2c4774f05c36ee8f",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "dessert",
+        "name": "Mokshedul Momon",
+        "bpt": "BTP - Senior Physiotherapist",
+        "rating": "4",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "category": "doctors",
+        "image": "https://i.ibb.co/6DwbqQN/doctor-1.jpg",
         "price": 13.5
     },
     {
         "_id": "642c155b2c4774f05c36ee91",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "dessert",
+        "name": "Mokshedul Momon",
+        "bpt": "BTP - Senior Physiotherapist",
+        "rating": "4",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "category": "doctors",
+        "image": "https://i.ibb.co/6DwbqQN/doctor-1.jpg",
         "price": 14.7
     },
     {
@@ -326,10 +370,13 @@
     },
     {
         "_id": "642c155b2c4774f05c36ee85",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
+        "name": "Mokshedul Momon",
+        "bpt": "BTP - Senior Physiotherapist",
+        "rating": "4",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "category": "doctors",
+        "image": "https://i.ibb.co/6DwbqQN/doctor-1.jpg",
         "price": 10.5
     },
     {
@@ -414,10 +461,13 @@
     },
     {
         "_id": "642c155b2c4774f05c36ee86",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
+        "name": "Mokshedul Momon",
+        "bpt": "BTP - Senior Physiotherapist",
+        "rating": "4",
+        "location": "Dhanmondi, Dhaka, Bangladesh",
+        "time": "Available On Mon, 22 December",
+        "category": "doctors",
+        "image": "https://i.ibb.co/6DwbqQN/doctor-1.jpg",
         "price": 12.5
     },
     {

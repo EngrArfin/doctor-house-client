@@ -4,10 +4,10 @@ const SignUp = () => {
   
   return (
 
-    <section className="flex justify-center items-center mt-32">
+    <section className="flex justify-center items-center mb-10 mt-32">
       <form className="border-2 border-red-500 p-4 w-150">
         <div className="flex justify-center mt-16 text-3xl">
-          <h2>Sign Up to Doc House</h2>
+          <h2>SignUp to Mohammadpur Hospital</h2>
         </div>
 
         <div className="flex">
