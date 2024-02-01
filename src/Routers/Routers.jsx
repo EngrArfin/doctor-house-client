@@ -8,8 +8,9 @@ import DoctorProfile from "../pages/Home/DoctorProfile/DoctorProfile";
 import Login from "../pages/Home/Login/Login";
 import Dashboard from "../pages/AdminUser/Dashboard/Dashboard";
 import SignUp from "../pages/Home/SignUp/SignUp";
-import DoctorsCard from "../pages/Home/Share/Profile2/DoctorsCard/DoctorsCard";
 import DoctorMenu from "../pages/Home/Share/Profile2/DoctorMenu/DoctorMenu";
+import PrivateRoute from "./PrivateRoute";
+import Appointment from "../pages/Home/Share/Profile2/Appointment/Appointment";
 
  export const router = createBrowserRouter([
   {
@@ -26,7 +27,11 @@ import DoctorMenu from "../pages/Home/Share/Profile2/DoctorMenu/DoctorMenu";
         },
         {
             path: "/appointment",
-            element: <DoctorMenu></DoctorMenu>
+            element: <DoctorMenu></DoctorMenu> 
+        },
+        {
+            path: "/appoint",
+            element: <Appointment></Appointment>
         },
         
         {

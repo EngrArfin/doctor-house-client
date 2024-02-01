@@ -1,17 +1,19 @@
 //import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { FaClinicMedical, FaHandHoldingMedical } from 'react-icons/fa';
+import { useContext } from "react";
+import { AuthContext } from "../../../../AuthProvider/AuthProvider";
 
 const NavBar = () => {
   
-    /* const { user, logOut } = useContext(AuthContext); */
-  /* const [cart] = useCart(); */
+    const { user, logOut } = useContext(AuthContext);
+  
 
- /*  const handelLogOut = () => {
+  const handelLogOut = () => {
     logOut()
       .then(() => {})
       .catch((error) => console.error(error));
-  }; */
+  };
 
     const navOptions = (
         <>
@@ -21,12 +23,14 @@ const NavBar = () => {
           <li><Link className="uppercase" to="/profile">About</Link></li>
           <li><Link className="uppercase" to="/appointment">Appointment</Link></li>
           <li>
-            <Link className="uppercase" to="/login">Login</Link>
+            <Link className="uppercase" to="/login">Contract</Link>
           </li>
           
-          {/* {user ? (
+          
+           {user ? (
+            
             <>
-              <button onClick={handelLogOut} className="btn btn-ghost uppercase">
+              <button className="btn btn-ghost uppercase">
                 LogOut
               </button>
             </>
@@ -36,16 +40,16 @@ const NavBar = () => {
                 <Link className="uppercase" to="/login">Login</Link>
               </li>
             </>
-          )} */}
+          )} 
         </>
       );
 
     return (
 <>
-      <div className="navbar bg-[#102a1e]  text-white">
+      <div className="navbar bg-[#FFFFFF] text-bold text-black">
         <div className="navbar-start">
           
-          <a className="btn ml-20 btn-ghost uppercase  text-xl"> <FaClinicMedical></FaClinicMedical> <span className="text-red-400"> Mohammadpur </span>Health Complex </a>
+          <Link to='/' className="btn ml-20 btn-ghost uppercase  text-xl"> <FaClinicMedical></FaClinicMedical> <span className="text-red-400"> Mohammadpur </span>Health Complex </Link>
         </div>
 
 

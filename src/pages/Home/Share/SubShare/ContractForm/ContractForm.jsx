@@ -40,6 +40,7 @@ const ContractForm = () => {
           </div>
         </div>
       </div>
+      
       <div className=" p-12">
         <input
           className=" p-2  bg-blue-500 text-white "
